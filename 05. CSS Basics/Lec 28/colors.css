@@ -1,0 +1,36 @@
+/* 1. Named Colors */
+
+h1{
+    color: red;
+}
+
+/* 2. HEX Codes */
+
+h2{
+    background-color: #87E89E;
+}
+
+/* 3. RGB (Red, Green, Blue) */
+
+p {
+    color: rgb(0,0,255);
+}
+
+/* 4. RGBA (RGB + Alpha) */
+
+div{
+    background-color: rgba(255, 0, 255, 0.5);
+}
+
+/* 5. HSL (Hue, Saturation, Lightness) */
+
+span{
+    color: hsl(316, 90%, 46%);
+}
+
+/* 6. HSLA (HSL + Alpha) */
+
+span {
+  background-color: hsla(226, 79%, 56%, 0.3);
+}
+

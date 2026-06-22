@@ -1,0 +1,77 @@
+/* Element Selector */
+
+p{
+    color: darkblue;
+}
+
+
+/* Class Selectors */
+
+.highlight{
+
+    color: red;
+    font-size: 15px;
+
+}
+
+.star{
+
+    color: green;
+    font-size: 20px;
+}
+
+.big{
+
+    background-color: pink;
+}
+
+/* ID Selector */
+
+
+#p1{
+    background-color: yellowgreen;
+}
+
+#d1{
+    font-size: 25px;
+    background-color: peru;
+}
+
+/* Universal Selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+/* Grouping Selector */
+
+h1,h2{
+
+    color: violet
+}
+
+/* Descendant Selector */
+
+div p{
+    color: brown;
+}
+
+div span{
+    color: navy;
+    font-size: 39px;
+}
+
+/* Combining Class and Element Selectors */
+
+p.Imp{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+p.notImp{
+    color: darkkhaki;
+    font-size: 15px;
+}
